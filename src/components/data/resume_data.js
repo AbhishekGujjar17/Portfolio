@@ -1,6 +1,4 @@
-import react from '../../assets/icons/react.svg'
-import python from '../../assets/icons/python.svg'
-import javascript from '../../assets/icons/javascript.svg'
+
 
 
 const languages = [

@@ -67,10 +67,6 @@ const data_projects = [
         category: ['python']
     },
 
-    
-
-    ,
-
     {
         name: 'Gym Website',
         image: Gym,
@@ -102,13 +98,7 @@ const data_projects = [
         github_url: 'https://github.com/AbhishekGujjar17/Realtime-Chat-Application',
         category: ['node.js','socket.io']
     },
-
-   
-
     
-
-    
-
     {
         name: 'Send-Encrypted-Mails',
         image: Encryption,
