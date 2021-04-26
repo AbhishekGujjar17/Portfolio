@@ -110,8 +110,8 @@ const data_projects = [
     {
         name: 'Drink Water Reminder',
         image: Notifier,
-        deployed_url: 'https://dey-sumit.github.io/NewYear/',
-        github_url: 'https://github.com/AbhishekGujjar17/Send-Encrypted-Mails-via-Python',
+        deployed_url: 'https://github.com/AbhishekGujjar17/Drink-Water-Notification-System',
+        github_url: 'https://github.com/AbhishekGujjar17/Drink-Water-Notification-System',
         category: ['python']
     },
 

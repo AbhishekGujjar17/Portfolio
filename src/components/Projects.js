@@ -3,7 +3,7 @@ import data_projects from './data/projects_data'
 import ProjectCard from './ProjectCard';
 import { motion } from 'framer-motion'
 const Projects = () => {
-    const [projects, setProjects] = useState(data_projects)
+    
     
 
 
@@ -41,7 +41,7 @@ const Projects = () => {
             <div className="row">
 
                 {
-                    projects.map(project =>
+                    data_projects.map(project =>
                         <ProjectCard key={project.name} project={project} />)
                 }
 
