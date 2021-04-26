@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 import api from '../../assets/icons/api.svg'
 import backend from '../../assets/icons/backend.svg'

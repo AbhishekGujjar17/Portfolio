@@ -4,14 +4,10 @@ import ProjectCard from './ProjectCard';
 import { motion } from 'framer-motion'
 const Projects = () => {
     const [projects, setProjects] = useState(data_projects)
-    const [active, setActive] = useState('All')
+    
 
 
-    const handleFilterCategory = (name) => {
-        const new_array = data_projects.filter(project => project.category.includes(name))
-        setProjects(new_array)
-        setActive(name)
-    }
+    
 
     const project_variants = {
         hidden: {
