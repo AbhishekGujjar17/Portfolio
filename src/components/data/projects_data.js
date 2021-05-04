@@ -16,11 +16,11 @@ import Form from '../../assets/projects_images/Form.png'
 const data_projects = [
 
     {
-        name: 'Transparent Login Page',
-        image: Loginpage,
-        deployed_url: 'https://loving-easley-2bd16f.netlify.app/',
-        github_url: 'https://github.com/AbhishekGujjar17/Transparent-Login-Page',
-        category: ['frontend']
+        name: 'Realtime Chat Application',
+        image: Chat,
+        deployed_url: 'https://realtimechatappl.netlify.app',
+        github_url: 'https://github.com/AbhishekGujjar17/Realtime-Chat-Application',
+        category: ['node.js','socket.io']
     },
 
     {
@@ -65,6 +65,14 @@ const data_projects = [
         deployed_url: 'https://github.com/AbhishekGujjar17/Spotify_Playist_Generator',
         github_url: 'https://github.com/AbhishekGujjar17/Spotify_Playist_Generator',
         category: ['python']
+    },
+
+    {
+        name: 'Transparent Login Page',
+        image: Loginpage,
+        deployed_url: 'https://loving-easley-2bd16f.netlify.app/',
+        github_url: 'https://github.com/AbhishekGujjar17/Transparent-Login-Page',
+        category: ['frontend']
     },
 
     {
