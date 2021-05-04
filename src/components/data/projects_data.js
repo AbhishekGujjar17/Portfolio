@@ -94,7 +94,7 @@ const data_projects = [
     {
         name: 'Realtime Chat Application',
         image: Chat,
-        deployed_url: 'https://github.com/AbhishekGujjar17/Realtime-Chat-Application',
+        deployed_url: 'https://realtimechatappl.netlify.app',
         github_url: 'https://github.com/AbhishekGujjar17/Realtime-Chat-Application',
         category: ['node.js','socket.io']
     },
