@@ -1,8 +1,10 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "dependencies": {
+    "babel-preset-react": "^6.24.1",
     "cra-template": "1.0.3",
     "create-react-app": "^4.0.3",
     "framer-motion": "^2.4.3-beta.2",

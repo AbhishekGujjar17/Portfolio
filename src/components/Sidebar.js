@@ -46,7 +46,7 @@ const Sidebar = () => {
             </a>
             <figure className="sidebar__social-icons my-2">
                 <a href="https://www.facebook.com/abhishekgujjarj/" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook"  className="sidebar__icon mr-3" /></a>
-                <a href="https://www.instagram.com/abhi._.9871/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" className="sidebar__icon mr-3" /></a>
+                <a href="https://www.instagram.com/abhi._eth/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" className="sidebar__icon mr-3" /></a>
                 <a href="https://www.linkedin.com/in/gujjarabhishek/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" className="sidebar__icon" /></a>
             </figure>
             <div className="sidebar__contact">
@@ -55,9 +55,9 @@ const Sidebar = () => {
                 </div>
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon mr-3" />
-                    Vancouver, Canada</div>
+                    St. John's, Canada</div>
                 <div className="sidebar__item">bestabhishek17@gmail.com</div>
-                <div className="sidebar__item">+1(604-446-4184)</div>
+                <div className="sidebar__item">+1(709-986-5877)</div>
             </div>
             <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>Hire Me</div>
             <div className="sidebar__quote">Favourite Quote: <strong>"The future belongs to those who believe in the beauty of their dreams."</strong></div>

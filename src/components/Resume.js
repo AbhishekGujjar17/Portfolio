@@ -42,31 +42,30 @@ const Resume = () => {
               Memorial University, St. John’s, CANADA
               <strong>
                 <br />
-                GPA: 4.1
+                GPA: 3.9
               </strong>
             </p>
             <p className="resume-card__details">
-              I am currently persuing Bachelor of Science in Computer Science and Statistics from Memorial University of Newfoundland.
-               
+              I am currently persuing Bachelor of Science in Computer Science
+              and Statistics from Memorial University of Newfoundland.
             </p>
           </div>
         </div>
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card__heading">Experience (Latest)</h4>
           <div className="resume-card__body">
-            <h5 className="resume-card__title">Software Developer</h5>
-            <p className="resume-card__name">
-              Memorial University of Newfoundland
-            </p>
+            <h5 className="resume-card__title">Software Engineer Intern</h5>
+            <p className="resume-card__name">Gao Tek</p>
             <p className="resume-card__details">
-              • Worked towards developing Retrievium, a data-driven modelling
-              and discovery tool for chemistry.<br/>• Developed Retrievium
-              application which parses the CML (Chemical Markup Language) and
-              visualizes compounds. The application has fle management system and
-              IAM (Identity Access Management). <br/>• Debug and update the search
-              page for the application with new data using JavaScript, React and
-              Node.js/Express. <br/>• Used libraries such as ChemDoodle and Jmol to
-              visualize the chemical compounds.
+              • Developed a Python back-end module for a web application that
+              performs data extraction from OCR’ed data of documents.
+              <br />• Implemented ways to handle OCR errors and adjust typos by
+              using various tools, boosting the performance of data extraction
+              by 20%.
+              <br />• Implemented various pipelines of extraction for different
+              types of documents.
+              <br />• Integrated modules and performed integration/end-to-end
+              testing.
             </p>
           </div>
         </div>
@@ -82,7 +81,9 @@ const Resume = () => {
           </div>
         </div>
         <div className="col-lg-6 resume-languages">
-          <h5 className="reume-language__heading">Frameworks and Technologies</h5>
+          <h5 className="reume-language__heading">
+            Frameworks and Technologies
+          </h5>
           <div className="resume-language__body mt-3">
             {tools.map((tool) => (
               <Bar value={tool} />

@@ -17,7 +17,7 @@ const skills = [
     {
         icon: repair,
         title: "Frameworks/libraries",
-        about: "React and Redux, React Native, Angular, NodeJS, Flask.",
+        about: "React and Redux, Express, Angular, NodeJS, Flask.",
     },
     {
         icon: algo,
@@ -32,7 +32,7 @@ const skills = [
     {
         icon: puzzle,
         title: "Methodologies",
-        about: "Agile Software Development, Pair Programming, Scrum, Test-Driven Development (TDD)."
+        about: "Agile Software Development, Pair Programming, Scrum, AWS."
     },
     {
         icon: backend,

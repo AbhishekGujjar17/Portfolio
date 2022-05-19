@@ -51,7 +51,7 @@ const tools = [
         level: '89'
     },
     {
-        name: 'Flask',
+        name: 'AWS',
         level: '90'
     },
     {
