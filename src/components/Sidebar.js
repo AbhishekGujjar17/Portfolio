@@ -14,6 +14,8 @@ const Sidebar = () => {
     const handleEmailMe = () => {
         window.open("mailto:bestabhishek17@gmail.com")
     }
+
+    
     const sidebar_variant = {
         hidden: {
             x: '-20vw',
@@ -60,6 +62,9 @@ const Sidebar = () => {
                 <div className="sidebar__item">+1(709-986-5877)</div>
             </div>
             <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>Hire Me</div>
+            
+            
+
             <div className="sidebar__quote">Favourite Quote: <strong>"The future belongs to those who believe in the beauty of their dreams."</strong></div>
         </motion.div>
     )
