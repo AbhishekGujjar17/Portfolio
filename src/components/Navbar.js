@@ -9,7 +9,9 @@ const Navbar = () => {
     useEffect(() => {
         let currentURL = window.location.href
         console.log(currentURL);
-        if (currentURL.endsWith('/'))
+        if (currentURL.endsWith('/about'))
+            setActive('About');
+        else if (currentURL.endsWith('/'))
             setActive('About');
         else if (currentURL.endsWith('/projects'))
             setActive('Projects')
@@ -45,7 +47,7 @@ const Navbar = () => {
 
             <div className="navbar__items">
                 {active !== 'About' &&
-                    <Link to="/">
+                    <Link to="/about">
                         <div className="navbar__item" onClick={() => setActive('About')}>About</div>
                     </Link>
                 }

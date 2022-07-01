@@ -53,7 +53,7 @@ const Sidebar = () => {
             </figure>
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
-                    <a href="https://github.com/AbhishekGujjar17" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="sidebar__icon mr-3" />github</a>
+                    <a href="https://github.com/AbhishekGujjar17" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="sidebar__icon mr-3" />Github</a>
                 </div>
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon mr-3" />
@@ -66,6 +66,7 @@ const Sidebar = () => {
             
 
             <div className="sidebar__quote">Favourite Quote: <strong>"The future belongs to those who believe in the beauty of their dreams."</strong></div>
+            <p><a  href="https://www.buymeacoffee.com/bestabhishK"> <img align="middle" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="bestabhishK" /></a></p>
         </motion.div>
     )
 }

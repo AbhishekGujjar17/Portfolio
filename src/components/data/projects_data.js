@@ -12,6 +12,9 @@ import Dice from '../../assets/projects_images/Dice.png'
 import Imagesearch from '../../assets/projects_images/Imagesearch.png'
 import Chat from '../../assets/projects_images/Chat.png'
 import Form from '../../assets/projects_images/Form.png'
+import KingDomino from '../../assets/projects_images/KingDomino.png'
+import Textutils from '../../assets/projects_images/Textutils.png'
+import NewsMonkey from '../../assets/projects_images/NewsMonkey.png'
 
 const data_projects = [
 
@@ -99,13 +102,7 @@ const data_projects = [
         category: ['frontend']
     },
 
-    {
-        name: 'Realtime Chat Application',
-        image: Chat,
-        deployed_url: 'https://realtimechatappl.netlify.app',
-        github_url: 'https://github.com/AbhishekGujjar17/Realtime-Chat-Application',
-        category: ['node.js','socket.io']
-    },
+    
     
     {
         name: 'Send-Encrypted-Mails',
@@ -137,7 +134,33 @@ const data_projects = [
         deployed_url: 'https://hopeful-clarke-a2b76b.netlify.app/',
         github_url: 'https://github.com/AbhishekGujjar17/ReactApp',
         category: ['react.js']
+    },
+
+    {
+        name: 'KingDomino Board Game',
+        image: KingDomino,
+        deployed_url: 'https://github.com/AbhishekGujjar17/comp2005-winter22-group3',
+        github_url: 'https://github.com/AbhishekGujjar17/comp2005-winter22-group3',
+        category: ['Java']
+    },
+
+    {
+        name: 'TextUtils',
+        image: Textutils,
+        deployed_url: 'https://textutilsabhi.netlify.app/',
+        github_url: 'https://github.com/AbhishekGujjar17/Textutils',
+        category: ['react.js']
+    },
+
+    {
+        name: 'NewsMonkey',
+        image: NewsMonkey,
+        deployed_url: 'https://github.com/AbhishekGujjar17/NewsMonkey',
+        github_url: 'https://github.com/AbhishekGujjar17/NewsMonkey',
+        category: ['react.js']
     }
+
+
 
    
 ]

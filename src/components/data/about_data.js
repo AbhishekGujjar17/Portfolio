@@ -17,7 +17,7 @@ const skills = [
     {
         icon: repair,
         title: "Frameworks/libraries",
-        about: "React and Redux, Express, Angular, NodeJS, Flask.",
+        about: "React and Redux, Express, Angular, NodeJS",
     },
     {
         icon: algo,
@@ -27,7 +27,7 @@ const skills = [
     {
         icon: api,
         title: "Tools",
-        about: "Visual Studio, JetBrains, WordPress, Bootstrap, Jira, Jenkins, Git, GitHub."
+        about: "Visual Studio, WordPress, Bootstrap, Git, GitHub."
     },
     {
         icon: puzzle,

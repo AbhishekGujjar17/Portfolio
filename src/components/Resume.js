@@ -3,6 +3,7 @@ import React from "react";
 import Bar from "./Bar";
 import { motion } from "framer-motion";
 import { tools, languages } from "./data/resume_data";
+import code from "../assets/projects_images/code.gif"
 
 const Resume = () => {
   const resume_variants = {
@@ -36,7 +37,7 @@ const Resume = () => {
           <h4 className="resume-card__heading">Education</h4>
           <div className="resume-card__body">
             <h5 className="resume-card__title">
-              Bachelor of Science in Computer Science and Statistics
+              Bachelor of Science in Computer Science (Honours)
             </h5>
             <p className="resume-card__name">
               Memorial University, St. John’s, CANADA
@@ -45,17 +46,18 @@ const Resume = () => {
                 GPA: 3.9
               </strong>
             </p>
-            <p className="resume-card__details">
-              I am currently persuing Bachelor of Science in Computer Science
-              and Statistics from Memorial University of Newfoundland.
+            <img class = "rounded mx-auto d-block"  src={code} alt="code" width="300" height="200"></img>
+            <p className="resume-card__details mt-1">
+              I am currently pursuing Bachelor of Science in <strong>Computer Science (Honours) </strong> from Memorial University of Newfoundland.
             </p>
+            
           </div>
         </div>
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card__heading">Experience (Latest)</h4>
           <div className="resume-card__body">
             <h5 className="resume-card__title">Software Engineer Intern</h5>
-            <p className="resume-card__name">Gao Tek</p>
+            <a className = "resume-card__name" rel="noopener noreferrer" target="_blank" href= "https://www.pragmaclin.com/">PragmaClin Research Inc.</a>
             <p className="resume-card__details">
               • Developed a Python back-end module for a web application that
               performs data extraction from OCR’ed data of documents.
@@ -67,6 +69,7 @@ const Resume = () => {
               <br />• Integrated modules and performed integration/end-to-end
               testing.
             </p>
+           
           </div>
         </div>
       </div>
