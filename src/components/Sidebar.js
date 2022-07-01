@@ -66,7 +66,7 @@ const Sidebar = () => {
             
 
             <div className="sidebar__quote">Favourite Quote: <strong>"The future belongs to those who believe in the beauty of their dreams."</strong></div>
-            <p><a  href="https://www.buymeacoffee.com/bestabhishK"> <img align="middle" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="bestabhishK" /></a></p>
+            <p><a rel="noopener noreferrer" target="_blank" href="https://www.buymeacoffee.com/bestabhishK"> <img align="middle" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="bestabhishK" /></a></p>
         </motion.div>
     )
 }
