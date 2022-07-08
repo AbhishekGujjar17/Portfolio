@@ -59,15 +59,12 @@ const Resume = () => {
             <h5 className="resume-card__title">Software Engineer Intern</h5>
             <a className = "resume-card__name" rel="noopener noreferrer" target="_blank" href= "https://www.pragmaclin.com/">PragmaClin Research Inc.</a>
             <p className="resume-card__details">
-              • Developed a Python back-end module for a web application that
-              performs data extraction from OCR’ed data of documents.
-              <br />• Implemented ways to handle OCR errors and adjust typos by
-              using various tools, boosting the performance of data extraction
-              by 20%.
-              <br />• Implemented various pipelines of extraction for different
-              types of documents.
-              <br />• Integrated modules and performed integration/end-to-end
-              testing.
+              • Worked with depth-sensing cameras to track hand and body measurements with Python.
+              <br />• Used JavaFx to make changes in the current GUI of the software.
+              <br />• Developed Frontend component of the software using ReactJs and Syncfusion API.
+              <br />• Managed and modified the database using SQLite.
+              <br />• Debugged and modified software components.
+              <br /> <br/> <strong>Skills: </strong> Artificial Intelligence · JavaFx · ReactJs · OpenCv · SQLite · Java · Python · JavaScript
             </p>
            
           </div>
