@@ -19,20 +19,60 @@ import NewsMonkey from '../../assets/projects_images/NewsMonkey.png'
 const data_projects = [
 
     {
-        name: 'Realtime Chat Application',
-        image: Chat,
-        deployed_url: 'https://realtimechatappl.netlify.app',
-        github_url: 'https://github.com/AbhishekGujjar17/Realtime-Chat-Application',
-        category: ['node.js','socket.io']
+        name: 'Todo-App',
+        image: Todo,
+        deployed_url: 'https://sharp-noyce-e84569.netlify.app/',
+        github_url: 'https://github.com/AbhishekGujjar17/Todo-App',
+        category: ['react.js','frontend']
     },
 
     {
+
+        
         name: 'AI-Desktop Voice Assistant',
         image: Jarvis,
         deployed_url: 'https://github.com/AbhishekGujjar17/JARVIS-AI-Desktop-Voice-Assistant-With-Python',
         github_url: 'https://github.com/AbhishekGujjar17/JARVIS-AI-Desktop-Voice-Assistant-With-Python',
         category: ['python']
     },
+
+    {
+        name: 'TextUtils',
+        image: Textutils,
+        deployed_url: 'https://textutilsabhi.netlify.app/',
+        github_url: 'https://github.com/AbhishekGujjar17/Textutils',
+        category: ['react.js']
+    },
+
+    {
+        name: 'NewsMonkey',
+        image: NewsMonkey,
+        deployed_url: 'https://github.com/AbhishekGujjar17/NewsMonkey',
+        github_url: 'https://github.com/AbhishekGujjar17/NewsMonkey',
+        category: ['react.js']
+    },
+
+    {
+        name: 'KingDomino Board Game',
+        image: KingDomino,
+        deployed_url: 'https://github.com/AbhishekGujjar17/comp2005-winter22-group3',
+        github_url: 'https://github.com/AbhishekGujjar17/comp2005-winter22-group3',
+        category: ['Java']
+    },
+
+    {
+        name: 'Musicxy - MP3 Player',
+        image: Musicxy,
+        deployed_url: 'https://github.com/AbhishekGujjar17/Musicxy---MP3-Player',
+        github_url: 'https://github.com/AbhishekGujjar17/Musicxy---MP3-Player',
+        category: ['python']
+    },
+
+    
+
+   
+
+   
     
     
     {
@@ -44,23 +84,15 @@ const data_projects = [
         category: ['python']
     },
 
-    
-
     {
-        name: 'Musicxy - MP3 Player',
-        image: Musicxy,
-        deployed_url: 'https://github.com/AbhishekGujjar17/Musicxy---MP3-Player',
-        github_url: 'https://github.com/AbhishekGujjar17/Musicxy---MP3-Player',
-        category: ['python']
+        name: 'Realtime Chat Application',
+        image: Chat,
+        deployed_url: 'https://realtimechatappl.netlify.app',
+        github_url: 'https://github.com/AbhishekGujjar17/Realtime-Chat-Application',
+        category: ['node.js','socket.io']
     },
 
-    {
-        name: 'Todo-App',
-        image: Todo,
-        deployed_url: 'https://sharp-noyce-e84569.netlify.app/',
-        github_url: 'https://github.com/AbhishekGujjar17/Todo-App',
-        category: ['react.js','frontend']
-    },
+
 
     {
         name: 'Spotify Playlist Generator',
@@ -136,29 +168,9 @@ const data_projects = [
         category: ['react.js']
     },
 
-    {
-        name: 'KingDomino Board Game',
-        image: KingDomino,
-        deployed_url: 'https://github.com/AbhishekGujjar17/comp2005-winter22-group3',
-        github_url: 'https://github.com/AbhishekGujjar17/comp2005-winter22-group3',
-        category: ['Java']
-    },
+    
 
-    {
-        name: 'TextUtils',
-        image: Textutils,
-        deployed_url: 'https://textutilsabhi.netlify.app/',
-        github_url: 'https://github.com/AbhishekGujjar17/Textutils',
-        category: ['react.js']
-    },
 
-    {
-        name: 'NewsMonkey',
-        image: NewsMonkey,
-        deployed_url: 'https://github.com/AbhishekGujjar17/NewsMonkey',
-        github_url: 'https://github.com/AbhishekGujjar17/NewsMonkey',
-        category: ['react.js']
-    }
 
 
 
