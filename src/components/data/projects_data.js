@@ -8,8 +8,6 @@ import Loginpage from "../../assets/projects_images/Loginpage.png";
 import Covidnotify from "../../assets/projects_images/Covidnotify.jpg";
 import Covidmap from "../../assets/projects_images/Covidmap.png";
 import Jarvis from "../../assets/projects_images/Jarvis.jpg";
-import Dice from "../../assets/projects_images/Dice.png";
-import Imagesearch from "../../assets/projects_images/Imagesearch.png";
 import Chat from "../../assets/projects_images/Chat.png";
 import Form from "../../assets/projects_images/Form.png";
 import KingDomino from "../../assets/projects_images/KingDomino.png";
