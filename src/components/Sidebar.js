@@ -5,9 +5,9 @@ import instagram from '../assets/icons/instagram.svg'
 import linkedin from '../assets/icons/linkedin.svg'
 import github from '../assets/icons/github.svg'
 import pin from '../assets/icons/pin.svg'
-import tie from '../assets/icons/tie.svg'
+// import tie from '../assets/icons/tie.svg'
 import abhishekprofile from '../assets/abhishekprofile.jpg'
-import resume from '../assets/Abhishek_Resume.pdf'
+// import resume from '../assets/Abhishek_Resume.pdf'
 import { motion } from 'framer-motion'
 
 const Sidebar = () => {
