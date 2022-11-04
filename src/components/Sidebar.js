@@ -15,7 +15,7 @@ const Sidebar = () => {
         window.open("mailto:bestabhishek17@gmail.com")
     }
 
-    
+
     const sidebar_variant = {
         hidden: {
             x: '-20vw',
@@ -41,13 +41,13 @@ const Sidebar = () => {
             <img src={abhishekprofile} alt="avatar" className="sidebar__avatar" />
             <div className="sidebar__name">Abhishek <span>Gujjar</span> </div>
             <div className="sidebar__item sidebar__title">Developer</div>
-            <a href={resume} download="resume.pdf">
+            {/* <a href={resume} download="resume.pdf">
                 <div className="sidebar__item sidebar__resume">
                     <img src={tie} alt="resume" className="sidebar__icon" />Download Resume
                 </div>
-            </a>
+            </a> */}
             <figure className="sidebar__social-icons my-2">
-                <a href="https://www.facebook.com/abhishekgujjarj/" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook"  className="sidebar__icon mr-3" /></a>
+                <a href="https://www.facebook.com/abhishekgujjarj/" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook" className="sidebar__icon mr-3" /></a>
                 <a href="https://www.instagram.com/abhi._eth/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" className="sidebar__icon mr-3" /></a>
                 <a href="https://www.linkedin.com/in/gujjarabhishek/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" className="sidebar__icon" /></a>
             </figure>
@@ -62,8 +62,8 @@ const Sidebar = () => {
                 <div className="sidebar__item">+1(709-986-5877)</div>
             </div>
             <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>Hire Me</div>
-            
-            
+
+
 
             <div className="sidebar__quote">Favourite Quote: <strong>"The future belongs to those who believe in the beauty of their dreams."</strong></div>
             <p><a rel="noopener noreferrer" target="_blank" href="https://www.buymeacoffee.com/bestabhishK"> <img align="middle" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="bestabhishK" /></a></p>
