@@ -6,6 +6,7 @@ import About from "./components/about/About";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import { AnimatePresence } from "framer-motion";
+import Depreciated from "./components/Depreciated/Depreciated";
 
 function App() {
   return (
