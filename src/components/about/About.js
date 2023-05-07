@@ -44,7 +44,7 @@ const About = () => {
         <h6 className="about__heading">My technical proficiencies include:</h6>
         <div className="row">
           {skills.map((skill) => (
-            <Skillcard skill={skill} />
+            <Skillcard key={skill.title} skill={skill} />
           ))}
         </div>
       </div>
