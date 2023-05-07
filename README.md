@@ -1,7 +1,7 @@
-# Abhishek Gujjar Portfolio
-
-This Portfolio is no longer mantained.
+# This Portfolio is no longer mantained.
 # For New One Please Visit: https://abhishekgujjar.netlify.app
+
+# Abhishek Gujjar Older Portfolio
 
 This is a portfolio website for Abhishek Gujjar. It's built using React and showcases his skills, projects, experience, and contact information.
 
