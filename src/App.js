@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="app">
       <div className="container app__container">
+          <Depreciated />
         <div className="row app__row">
          
             <div className="col-lg-3">
